@@ -12,8 +12,6 @@ Do {
     # $ServiceName = "MSSQLSERVER"
     $ServiceName = "MSSQL`$SQLEXPRESS"
 
-
-    # Supposed to ask for a value until a proper one is given. Does not Work.
     Do {
 
     $choice = Read-Host -Prompt "Please enter your choice "
