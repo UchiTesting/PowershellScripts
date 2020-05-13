@@ -16,7 +16,7 @@ Do {
 
     $choice = Read-Host -Prompt "Please enter your choice "
 
-    } While ( -Not ($choice -In 0..3))
+    } While ( -Not ($choice -In 0..4))
 
 
     If ( $choice -eq 1) {
